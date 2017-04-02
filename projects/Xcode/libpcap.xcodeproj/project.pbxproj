@@ -1,0 +1,396 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA3EC85D1E91380D004F88BA /* bpf_filter.c in Sources */ = {isa = PBXBuildFile; fileRef = BA3EC8291E91380D004F88BA /* bpf_filter.c */; };
+		BA3EC85E1E91380D004F88BA /* bpf_dump.c in Sources */ = {isa = PBXBuildFile; fileRef = BA3EC82A1E91380D004F88BA /* bpf_dump.c */; };
+		BA3EC85F1E91380D004F88BA /* bpf_image.c in Sources */ = {isa = PBXBuildFile; fileRef = BA3EC82B1E91380D004F88BA /* bpf_image.c */; };
+		BA3EC8621E91380D004F88BA /* etherent.c in Sources */ = {isa = PBXBuildFile; fileRef = BA3EC82E1E91380D004F88BA /* etherent.c */; };
+		BA3EC8631E91380D004F88BA /* fad-getad.c in Sources */ = {isa = PBXBuildFile; fileRef = BA3EC82F1E91380D004F88BA /* fad-getad.c */; };
+		BA3EC8641E91380D004F88BA /* fad-gifc.c in Sources */ = {isa = PBXBuildFile; fileRef = BA3EC8301E91380D004F88BA /* fad-gifc.c */; };
+		BA3EC8671E91380D004F88BA /* inet.c in Sources */ = {isa = PBXBuildFile; fileRef = BA3EC8331E91380D004F88BA /* inet.c */; };
+		BA3EC8681E91380D004F88BA /* getopt.c in Sources */ = {isa = PBXBuildFile; fileRef = BA3EC8341E91380D004F88BA /* getopt.c */; };
+		BA3EC8691E91380D004F88BA /* snprintf.c in Sources */ = {isa = PBXBuildFile; fileRef = BA3EC8351E91380D004F88BA /* snprintf.c */; };
+		BA3EC86C1E91380D004F88BA /* nametoaddr.c in Sources */ = {isa = PBXBuildFile; fileRef = BA3EC8381E91380D004F88BA /* nametoaddr.c */; };
+		BA3EC86D1E91380D004F88BA /* optimize.c in Sources */ = {isa = PBXBuildFile; fileRef = BA3EC8391E91380D004F88BA /* optimize.c */; };
+		BA3EC8711E91380D004F88BA /* pcap-common.c in Sources */ = {isa = PBXBuildFile; fileRef = BA3EC83D1E91380D004F88BA /* pcap-common.c */; };
+		BA3EC8881E91380D004F88BA /* daemon.c in Sources */ = {isa = PBXBuildFile; fileRef = BA3EC8541E91380D004F88BA /* daemon.c */; };
+		BA3EC8891E91380D004F88BA /* fileconf.c in Sources */ = {isa = PBXBuildFile; fileRef = BA3EC8551E91380D004F88BA /* fileconf.c */; };
+		BA3EC88A1E91380D004F88BA /* rpcapd.c in Sources */ = {isa = PBXBuildFile; fileRef = BA3EC8561E91380D004F88BA /* rpcapd.c */; };
+		BA3EC88B1E91380D004F88BA /* utils.c in Sources */ = {isa = PBXBuildFile; fileRef = BA3EC8571E91380D004F88BA /* utils.c */; };
+		BA3EC88E1E91380D004F88BA /* sf-pcap-ng.c in Sources */ = {isa = PBXBuildFile; fileRef = BA3EC85A1E91380D004F88BA /* sf-pcap-ng.c */; };
+		BA3EC88F1E91380D004F88BA /* sf-pcap.c in Sources */ = {isa = PBXBuildFile; fileRef = BA3EC85B1E91380D004F88BA /* sf-pcap.c */; };
+		BA3EC8901E91380D004F88BA /* sockutils.c in Sources */ = {isa = PBXBuildFile; fileRef = BA3EC85C1E91380D004F88BA /* sockutils.c */; };
+		BAFC91191E913CAC00E1E6B9 /* pcap.c in Sources */ = {isa = PBXBuildFile; fileRef = BAFC91181E913CAC00E1E6B9 /* pcap.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA3EC8291E91380D004F88BA /* bpf_filter.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = bpf_filter.c; path = ../../libpcap/bpf/net/bpf_filter.c; sourceTree = "<group>"; };
+		BA3EC82A1E91380D004F88BA /* bpf_dump.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = bpf_dump.c; path = ../../libpcap/bpf_dump.c; sourceTree = "<group>"; };
+		BA3EC82B1E91380D004F88BA /* bpf_image.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = bpf_image.c; path = ../../libpcap/bpf_image.c; sourceTree = "<group>"; };
+		BA3EC82D1E91380D004F88BA /* dlpisubs.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = dlpisubs.c; path = ../../libpcap/dlpisubs.c; sourceTree = "<group>"; };
+		BA3EC82E1E91380D004F88BA /* etherent.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = etherent.c; path = ../../libpcap/etherent.c; sourceTree = "<group>"; };
+		BA3EC82F1E91380D004F88BA /* fad-getad.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "fad-getad.c"; path = "../../libpcap/fad-getad.c"; sourceTree = "<group>"; };
+		BA3EC8301E91380D004F88BA /* fad-gifc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "fad-gifc.c"; path = "../../libpcap/fad-gifc.c"; sourceTree = "<group>"; };
+		BA3EC8311E91380D004F88BA /* fad-glifc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "fad-glifc.c"; path = "../../libpcap/fad-glifc.c"; sourceTree = "<group>"; };
+		BA3EC8321E91380D004F88BA /* gencode.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = gencode.c; path = ../../libpcap/gencode.c; sourceTree = "<group>"; };
+		BA3EC8331E91380D004F88BA /* inet.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = inet.c; path = ../../libpcap/inet.c; sourceTree = "<group>"; };
+		BA3EC8341E91380D004F88BA /* getopt.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = getopt.c; path = ../../libpcap/missing/getopt.c; sourceTree = "<group>"; };
+		BA3EC8351E91380D004F88BA /* snprintf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = snprintf.c; path = ../../libpcap/missing/snprintf.c; sourceTree = "<group>"; };
+		BA3EC8361E91380D004F88BA /* strtok_r.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = strtok_r.c; path = ../../libpcap/missing/strtok_r.c; sourceTree = "<group>"; };
+		BA3EC8371E91380D004F88BA /* win_snprintf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = win_snprintf.c; path = ../../libpcap/missing/win_snprintf.c; sourceTree = "<group>"; };
+		BA3EC8381E91380D004F88BA /* nametoaddr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = nametoaddr.c; path = ../../libpcap/nametoaddr.c; sourceTree = "<group>"; };
+		BA3EC8391E91380D004F88BA /* optimize.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = optimize.c; path = ../../libpcap/optimize.c; sourceTree = "<group>"; };
+		BA3EC83A1E91380D004F88BA /* pcap-bpf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-bpf.c"; path = "../../libpcap/pcap-bpf.c"; sourceTree = "<group>"; };
+		BA3EC83B1E91380D004F88BA /* pcap-bt-linux.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-bt-linux.c"; path = "../../libpcap/pcap-bt-linux.c"; sourceTree = "<group>"; };
+		BA3EC83C1E91380D004F88BA /* pcap-bt-monitor-linux.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-bt-monitor-linux.c"; path = "../../libpcap/pcap-bt-monitor-linux.c"; sourceTree = "<group>"; };
+		BA3EC83D1E91380D004F88BA /* pcap-common.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-common.c"; path = "../../libpcap/pcap-common.c"; sourceTree = "<group>"; };
+		BA3EC83E1E91380D004F88BA /* pcap-dag.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-dag.c"; path = "../../libpcap/pcap-dag.c"; sourceTree = "<group>"; };
+		BA3EC83F1E91380D004F88BA /* pcap-dbus.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-dbus.c"; path = "../../libpcap/pcap-dbus.c"; sourceTree = "<group>"; };
+		BA3EC8401E91380D004F88BA /* pcap-dlpi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-dlpi.c"; path = "../../libpcap/pcap-dlpi.c"; sourceTree = "<group>"; };
+		BA3EC8411E91380D004F88BA /* pcap-dos.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-dos.c"; path = "../../libpcap/pcap-dos.c"; sourceTree = "<group>"; };
+		BA3EC8421E91380D004F88BA /* pcap-enet.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-enet.c"; path = "../../libpcap/pcap-enet.c"; sourceTree = "<group>"; };
+		BA3EC8431E91380D004F88BA /* pcap-libdlpi.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-libdlpi.c"; path = "../../libpcap/pcap-libdlpi.c"; sourceTree = "<group>"; };
+		BA3EC8441E91380D004F88BA /* pcap-linux.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-linux.c"; path = "../../libpcap/pcap-linux.c"; sourceTree = "<group>"; };
+		BA3EC8451E91380D004F88BA /* pcap-netfilter-linux.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-netfilter-linux.c"; path = "../../libpcap/pcap-netfilter-linux.c"; sourceTree = "<group>"; };
+		BA3EC8461E91380D004F88BA /* pcap-new.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-new.c"; path = "../../libpcap/pcap-new.c"; sourceTree = "<group>"; };
+		BA3EC8471E91380D004F88BA /* pcap-nit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-nit.c"; path = "../../libpcap/pcap-nit.c"; sourceTree = "<group>"; };
+		BA3EC8481E91380D004F88BA /* pcap-null.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-null.c"; path = "../../libpcap/pcap-null.c"; sourceTree = "<group>"; };
+		BA3EC8491E91380D004F88BA /* pcap-pf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-pf.c"; path = "../../libpcap/pcap-pf.c"; sourceTree = "<group>"; };
+		BA3EC84A1E91380D004F88BA /* pcap-rpcap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-rpcap.c"; path = "../../libpcap/pcap-rpcap.c"; sourceTree = "<group>"; };
+		BA3EC84B1E91380D004F88BA /* pcap-septel.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-septel.c"; path = "../../libpcap/pcap-septel.c"; sourceTree = "<group>"; };
+		BA3EC84C1E91380D004F88BA /* pcap-sita.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-sita.c"; path = "../../libpcap/pcap-sita.c"; sourceTree = "<group>"; };
+		BA3EC84D1E91380D004F88BA /* pcap-snf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-snf.c"; path = "../../libpcap/pcap-snf.c"; sourceTree = "<group>"; };
+		BA3EC84E1E91380D004F88BA /* pcap-snit.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-snit.c"; path = "../../libpcap/pcap-snit.c"; sourceTree = "<group>"; };
+		BA3EC84F1E91380D004F88BA /* pcap-snoop.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-snoop.c"; path = "../../libpcap/pcap-snoop.c"; sourceTree = "<group>"; };
+		BA3EC8501E91380D004F88BA /* pcap-tc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-tc.c"; path = "../../libpcap/pcap-tc.c"; sourceTree = "<group>"; };
+		BA3EC8511E91380D004F88BA /* pcap-usb-linux.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-usb-linux.c"; path = "../../libpcap/pcap-usb-linux.c"; sourceTree = "<group>"; };
+		BA3EC8521E91380D004F88BA /* pcap-win32.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "pcap-win32.c"; path = "../../libpcap/pcap-win32.c"; sourceTree = "<group>"; };
+		BA3EC8531E91380D004F88BA /* pcap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = pcap.c; path = ../../libpcap/pcap.c; sourceTree = "<group>"; };
+		BA3EC8541E91380D004F88BA /* daemon.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = daemon.c; path = ../../libpcap/rpcapd/daemon.c; sourceTree = "<group>"; };
+		BA3EC8551E91380D004F88BA /* fileconf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = fileconf.c; path = ../../libpcap/rpcapd/fileconf.c; sourceTree = "<group>"; };
+		BA3EC8561E91380D004F88BA /* rpcapd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = rpcapd.c; path = ../../libpcap/rpcapd/rpcapd.c; sourceTree = "<group>"; };
+		BA3EC8571E91380D004F88BA /* utils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = utils.c; path = ../../libpcap/rpcapd/utils.c; sourceTree = "<group>"; };
+		BA3EC8581E91380D004F88BA /* win32-svc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "win32-svc.c"; path = "../../libpcap/rpcapd/win32-svc.c"; sourceTree = "<group>"; };
+		BA3EC8591E91380D004F88BA /* savefile.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = savefile.c; path = ../../libpcap/savefile.c; sourceTree = "<group>"; };
+		BA3EC85A1E91380D004F88BA /* sf-pcap-ng.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "sf-pcap-ng.c"; path = "../../libpcap/sf-pcap-ng.c"; sourceTree = "<group>"; };
+		BA3EC85B1E91380D004F88BA /* sf-pcap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "sf-pcap.c"; path = "../../libpcap/sf-pcap.c"; sourceTree = "<group>"; };
+		BA3EC85C1E91380D004F88BA /* sockutils.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = sockutils.c; path = ../../libpcap/sockutils.c; sourceTree = "<group>"; };
+		BAE159731E91348E000AC1C6 /* libpcap-macOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libpcap-macOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFC91181E913CAC00E1E6B9 /* pcap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = pcap.c; path = ../../libpcap/pcap.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAE159701E91348E000AC1C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAE1596A1E91348E000AC1C6 = {
+			isa = PBXGroup;
+			children = (
+				BAFC91181E913CAC00E1E6B9 /* pcap.c */,
+				BA3EC8291E91380D004F88BA /* bpf_filter.c */,
+				BA3EC82A1E91380D004F88BA /* bpf_dump.c */,
+				BA3EC82B1E91380D004F88BA /* bpf_image.c */,
+				BA3EC82D1E91380D004F88BA /* dlpisubs.c */,
+				BA3EC82E1E91380D004F88BA /* etherent.c */,
+				BA3EC82F1E91380D004F88BA /* fad-getad.c */,
+				BA3EC8301E91380D004F88BA /* fad-gifc.c */,
+				BA3EC8311E91380D004F88BA /* fad-glifc.c */,
+				BA3EC8321E91380D004F88BA /* gencode.c */,
+				BA3EC8331E91380D004F88BA /* inet.c */,
+				BA3EC8341E91380D004F88BA /* getopt.c */,
+				BA3EC8351E91380D004F88BA /* snprintf.c */,
+				BA3EC8361E91380D004F88BA /* strtok_r.c */,
+				BA3EC8371E91380D004F88BA /* win_snprintf.c */,
+				BA3EC8381E91380D004F88BA /* nametoaddr.c */,
+				BA3EC8391E91380D004F88BA /* optimize.c */,
+				BA3EC83A1E91380D004F88BA /* pcap-bpf.c */,
+				BA3EC83B1E91380D004F88BA /* pcap-bt-linux.c */,
+				BA3EC83C1E91380D004F88BA /* pcap-bt-monitor-linux.c */,
+				BA3EC83D1E91380D004F88BA /* pcap-common.c */,
+				BA3EC83E1E91380D004F88BA /* pcap-dag.c */,
+				BA3EC83F1E91380D004F88BA /* pcap-dbus.c */,
+				BA3EC8401E91380D004F88BA /* pcap-dlpi.c */,
+				BA3EC8411E91380D004F88BA /* pcap-dos.c */,
+				BA3EC8421E91380D004F88BA /* pcap-enet.c */,
+				BA3EC8431E91380D004F88BA /* pcap-libdlpi.c */,
+				BA3EC8441E91380D004F88BA /* pcap-linux.c */,
+				BA3EC8451E91380D004F88BA /* pcap-netfilter-linux.c */,
+				BA3EC8461E91380D004F88BA /* pcap-new.c */,
+				BA3EC8471E91380D004F88BA /* pcap-nit.c */,
+				BA3EC8481E91380D004F88BA /* pcap-null.c */,
+				BA3EC8491E91380D004F88BA /* pcap-pf.c */,
+				BA3EC84A1E91380D004F88BA /* pcap-rpcap.c */,
+				BA3EC84B1E91380D004F88BA /* pcap-septel.c */,
+				BA3EC84C1E91380D004F88BA /* pcap-sita.c */,
+				BA3EC84D1E91380D004F88BA /* pcap-snf.c */,
+				BA3EC84E1E91380D004F88BA /* pcap-snit.c */,
+				BA3EC84F1E91380D004F88BA /* pcap-snoop.c */,
+				BA3EC8501E91380D004F88BA /* pcap-tc.c */,
+				BA3EC8511E91380D004F88BA /* pcap-usb-linux.c */,
+				BA3EC8521E91380D004F88BA /* pcap-win32.c */,
+				BA3EC8531E91380D004F88BA /* pcap.c */,
+				BA3EC8541E91380D004F88BA /* daemon.c */,
+				BA3EC8551E91380D004F88BA /* fileconf.c */,
+				BA3EC8561E91380D004F88BA /* rpcapd.c */,
+				BA3EC8571E91380D004F88BA /* utils.c */,
+				BA3EC8581E91380D004F88BA /* win32-svc.c */,
+				BA3EC8591E91380D004F88BA /* savefile.c */,
+				BA3EC85A1E91380D004F88BA /* sf-pcap-ng.c */,
+				BA3EC85B1E91380D004F88BA /* sf-pcap.c */,
+				BA3EC85C1E91380D004F88BA /* sockutils.c */,
+				BAE159741E91348E000AC1C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAE159741E91348E000AC1C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAE159731E91348E000AC1C6 /* libpcap-macOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BAE159711E91348E000AC1C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BAE159721E91348E000AC1C6 /* libpcap-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAE1597E1E91348E000AC1C6 /* Build configuration list for PBXNativeTarget "libpcap-macOS" */;
+			buildPhases = (
+				BAE1596F1E91348E000AC1C6 /* Sources */,
+				BAE159701E91348E000AC1C6 /* Frameworks */,
+				BAE159711E91348E000AC1C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libpcap-macOS";
+			productName = libpcap;
+			productReference = BAE159731E91348E000AC1C6 /* libpcap-macOS.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAE1596B1E91348E000AC1C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					BAE159721E91348E000AC1C6 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BAE1596E1E91348E000AC1C6 /* Build configuration list for PBXProject "libpcap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BAE1596A1E91348E000AC1C6;
+			productRefGroup = BAE159741E91348E000AC1C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAE159721E91348E000AC1C6 /* libpcap-macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAE1596F1E91348E000AC1C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFC91191E913CAC00E1E6B9 /* pcap.c in Sources */,
+				BA3EC85D1E91380D004F88BA /* bpf_filter.c in Sources */,
+				BA3EC85E1E91380D004F88BA /* bpf_dump.c in Sources */,
+				BA3EC85F1E91380D004F88BA /* bpf_image.c in Sources */,
+				BA3EC8621E91380D004F88BA /* etherent.c in Sources */,
+				BA3EC8631E91380D004F88BA /* fad-getad.c in Sources */,
+				BA3EC8641E91380D004F88BA /* fad-gifc.c in Sources */,
+				BA3EC8671E91380D004F88BA /* inet.c in Sources */,
+				BA3EC8681E91380D004F88BA /* getopt.c in Sources */,
+				BA3EC8691E91380D004F88BA /* snprintf.c in Sources */,
+				BA3EC86C1E91380D004F88BA /* nametoaddr.c in Sources */,
+				BA3EC86D1E91380D004F88BA /* optimize.c in Sources */,
+				BA3EC8711E91380D004F88BA /* pcap-common.c in Sources */,
+				BA3EC8881E91380D004F88BA /* daemon.c in Sources */,
+				BA3EC8891E91380D004F88BA /* fileconf.c in Sources */,
+				BA3EC88A1E91380D004F88BA /* rpcapd.c in Sources */,
+				BA3EC88B1E91380D004F88BA /* utils.c in Sources */,
+				BA3EC88E1E91380D004F88BA /* sf-pcap-ng.c in Sources */,
+				BA3EC88F1E91380D004F88BA /* sf-pcap.c in Sources */,
+				BA3EC8901E91380D004F88BA /* sockutils.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BAE1597C1E91348E000AC1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../libpcap/;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BAE1597D1E91348E000AC1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../libpcap/;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BAE1597F1E91348E000AC1C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAE159801E91348E000AC1C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EXECUTABLE_PREFIX = "";
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAE1596E1E91348E000AC1C6 /* Build configuration list for PBXProject "libpcap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE1597C1E91348E000AC1C6 /* Debug */,
+				BAE1597D1E91348E000AC1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAE1597E1E91348E000AC1C6 /* Build configuration list for PBXNativeTarget "libpcap-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAE1597F1E91348E000AC1C6 /* Debug */,
+				BAE159801E91348E000AC1C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAE1596B1E91348E000AC1C6 /* Project object */;
+}

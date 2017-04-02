@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A97859B616E7CD629C8ACC1F6125DD1383985843",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D694291C0F5728351F1F37707697F81895319540" : 9223372036854775807,
+    "F3588019D307B914E8188DFCA9D25386FC5D95CB" : 9223372036854775807,
+    "699E8A48262B7638C6949426AC7FEC96443BF4B7" : 9223372036854775807,
+    "A97859B616E7CD629C8ACC1F6125DD1383985843" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C14D20C2-FBCF-456C-B3F8-135F8C9474D0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D694291C0F5728351F1F37707697F81895319540" : "..",
+    "F3588019D307B914E8188DFCA9D25386FC5D95CB" : "..\/..\/..",
+    "699E8A48262B7638C6949426AC7FEC96443BF4B7" : "libpcap\/libpcap\/",
+    "A97859B616E7CD629C8ACC1F6125DD1383985843" : "libpcap\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "libpcap",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "projects\/Xcode\/libpcap.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/the-tcpdump-group\/libpcap.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "699E8A48262B7638C6949426AC7FEC96443BF4B7"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ilexbor\/libpcap.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A97859B616E7CD629C8ACC1F6125DD1383985843"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/ilexbor\/libilexbor.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D694291C0F5728351F1F37707697F81895319540"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/ilexbor\/arp-spoofer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F3588019D307B914E8188DFCA9D25386FC5D95CB"
+    }
+  ]
+}
